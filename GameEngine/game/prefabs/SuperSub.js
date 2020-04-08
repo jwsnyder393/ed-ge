@@ -14,13 +14,29 @@ export default {
           },
           {
             key:"fill",
-            value:"black"
+            value:"grey"
           },
           {
             key:"stroke",
-            value:"black"
+            value:"white"
           },
         ]
+      },
+      {
+        type: "AABBCollider",
+        values: [
+          {
+            key: "width",
+            value: "50",
+          },
+          {
+            key: "height",
+            value: "10",
+          },
+        ]
+      },
+      {
+        type: "SubBehavior",
       },
     ]
   }

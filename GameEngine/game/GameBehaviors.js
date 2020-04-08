@@ -1,21 +1,31 @@
-import CentipedeBehavior from "./behaviors/CentipedeBehavior.js"
 import PlayerBehavior from "./behaviors/PlayerBehavior.js"
 import ScoreBehavior from "./behaviors/ScoreBehavior.js"
-import BackToStartSceneBehavior from "./behaviors/BackToStartSceneBehavior.js"
-import CollisionCircleBehavior from "./behaviors/CollisionCircleBehavior.js"
-import DotBehavior from "./behaviors/DotBehavior.js"
 import MovementBehavior from "./behaviors/MovementBehavior.js"
-import StartSceneInputListener from "./behaviors/StartSceneInputListener.js"
-import NapsterBehavior from "./behaviors/NapsterBehavior.js"
+import MissileBehavior from "./behaviors/MissileBehavior.js"
+import MineBehavior from "./behaviors/MineBehavior.js"
+import FieldBehavior from "./behaviors/FieldBehavior.js"
+import FastBoatBehavior from "./behaviors/FastBoatBehavior.js"
+import MediumBoatBehavior from "./behaviors/MediumBoatBehavior.js"
+import SlowBoatBehavior from "./behaviors/SlowBoatBehavior.js"
+import SubBehavior from "./behaviors/SubBehavior.js"
+import DotBehavior from "./behaviors/DotBehavior.js"
+import CollisionCircleBehavior from "./behaviors/CollisionCircleBehavior.js"
+import CollisionRectBehavior from "./behaviors/CollisionRectBehavior.js"
+import BackgroundCollisionBehavior from "./behaviors/BackgroundCollisionBehavior.js"
 
 export default{
-  CentipedeBehavior,
   PlayerBehavior,
   ScoreBehavior,
-  BackToStartSceneBehavior,
-  CollisionCircleBehavior,
-  DotBehavior,
   MovementBehavior,
-  StartSceneInputListener,
-  NapsterBehavior,
+  MissileBehavior,
+  MineBehavior,
+  FieldBehavior,
+  FastBoatBehavior,
+  MediumBoatBehavior,
+  SlowBoatBehavior,
+  SubBehavior,
+  DotBehavior,
+  CollisionCircleBehavior,
+  CollisionRectBehavior,
+  BackgroundCollisionBehavior,
 }

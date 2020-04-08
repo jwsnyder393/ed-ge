@@ -18,7 +18,20 @@ export default {
           },
           {
             key:"stroke",
-            value:"black"
+            value:"white"
+          },
+        ]
+      },
+      {
+        type: "AABBCollider",
+        values: [
+          {
+            key: "width",
+            value: "50",
+          },
+          {
+            key: "height",
+            value: "10",
           },
         ]
       },

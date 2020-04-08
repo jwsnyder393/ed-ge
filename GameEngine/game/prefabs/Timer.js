@@ -6,17 +6,16 @@ export default {
         values:[
           {
             key:"text",
-            value:"36"
+            value:"70"
+          },
+          {
+            key:"fill",
+            value:"white"
           },
           {
             key:"font",
             value:"32pt Changa One"
           },
-          {
-            key:"fill",
-            value:"red"
-          },
-         
         ]
       },
     ]

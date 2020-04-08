@@ -3,10 +3,10 @@ import SceneManager from "../SceneManager.js"
 import Point from "../../engine/base/Point.js";
 import Mine from "../prefabs/Mine.js"
 
-export default class CollisionCircleBehavior extends Base.Behavior {
+export default class CollisionRectBehavior extends Base.Behavior {
     
     start() {
-        //console.log("Collision circle started");
+        console.log("Collision Rect started");
 
     }
     update() {

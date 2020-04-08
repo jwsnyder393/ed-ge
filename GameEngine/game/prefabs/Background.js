@@ -22,5 +22,24 @@ export default {
         },
       ]
     },
+    {
+      type: "AABBCollider",
+      values: [
+        {
+          key: "width",
+          value: "640",
+        },
+        {
+          key: "height",
+          value: "480",
+        },
+      ]
+    },
+    {
+      type:"BackgroundCollisionBehavior",
+    },
+    {
+      type: "FieldBehavior",
+    },
   ]
 }

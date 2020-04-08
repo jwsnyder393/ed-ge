@@ -6,7 +6,7 @@ export default {
       values:[
         {
           key:"radius",
-          value:"13"
+          value:"7"
         },
         {
           key:"fill",
@@ -17,6 +17,21 @@ export default {
           value:"gray"
         },
       ]
+    },
+    {
+      type: "CircleCollider",
+      values: [
+        {
+          key: "radius",
+          value: "15",
+        },
+      ]
+    },
+    {
+      type:"CollisionCircleBehavior",
+    },
+    {
+      type: "MineBehavior",
     },
   ]
 }

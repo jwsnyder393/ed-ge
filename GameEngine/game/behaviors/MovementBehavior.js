@@ -3,7 +3,7 @@ import Components from "../../engine/Components.js"
 import Input from "../../engine/base/Input.js";
 
 export default class MovementBehavior extends Base.Behavior {
-    speed = 8;
+    speed = 5;
     start() {
 
     }

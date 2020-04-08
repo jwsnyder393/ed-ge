@@ -22,5 +22,21 @@ export default {
           },
         ]
       },
+      {
+        type: "AABBCollider",
+        values: [
+          {
+            key: "width",
+            value: "50",
+          },
+          {
+            key: "height",
+            value: "20",
+          },
+        ]
+      },
+      {
+        type: "MediumBoatBehavior",
+      },
     ]
   }

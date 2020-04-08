@@ -2,25 +2,30 @@ export default {
     name: "Missile",
     components:[
       {
-        type:"RectangleComponent",
+        type:"CircleComponent",
         values:[
           {
-            key:"width",
-            value:"5"
-          },
-          {
-            key:"height",
-            value:"20"
+            key:"radius",
+            value:"2"
           },
           {
             key:"fill",
-            value:"black"
+            value:"white"
           },
           {
             key:"stroke",
-            value:"white"
+            value:"gray"
           },
         ]
+      },
+      {
+        type: "MissileBehavior",
+      },
+      {
+        type:"DotBehavior",
+      },
+      {
+        type:"Point",
       },
     ]
   }
